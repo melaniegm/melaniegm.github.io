@@ -19,11 +19,42 @@ body{
     width: 154px;
     margin: auto;
 }
-#box {
+.box {
     width: 760px;
     height: 372px;
-    border-color: aliceblue;
-    border-width: ;
+    border-color: snow;
     border-style: solid;
+    border-width: thick;
     margin: auto;
+    visibility: visible;
+}
+.box {
+    width: 760px;
+    height: 372px;
+    border-color: snow;
+    border-style: solid;
+    border-width: thick;
+    margin: auto;
+    visibility: visible;
+}
+.box {
+    max-width: 760px;
+    max-height: 372px;
+    border-color: snow;
+    border-style: solid;
+    border-width: thick;
+    margin: auto;
+    margin-top: 200px;
+    padding: 30px;
+}
+.box2 {
+    width: 760px;
+    height: 372px;
+    border-color: snow;
+    border-style: solid;
+    border-width: thin;
+    margin: auto;
+    padding: 30px;
+    position:
+
 }
