@@ -1,11 +1,11 @@
 html {
-  background: url(../images/photo-landscape.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url(../images/photo-landscape.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-body{
+body {
     margin: 0px;
 }
 #main_container {
@@ -13,33 +13,18 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+h5 {
+    position:
+}
 #logo {
     width: 160px;
     float: right;
     width: 154px;
-    margin: auto;
+    margin-top: -120px;
 }
 .box {
     width: 760px;
     height: 372px;
-    border-color: snow;
-    border-style: solid;
-    border-width: thick;
-    margin: auto;
-    visibility: visible;
-}
-.box {
-    width: 760px;
-    height: 372px;
-    border-color: snow;
-    border-style: solid;
-    border-width: thick;
-    margin: auto;
-    visibility: visible;
-}
-.box {
-    max-width: 760px;
-    max-height: 372px;
     border-color: snow;
     border-style: solid;
     border-width: thick;
@@ -53,8 +38,25 @@ body{
     border-color: snow;
     border-style: solid;
     border-width: thin;
-    margin: auto;
     padding: 30px;
-    position:
-
+    position: relative;
+    left: 130px;
+    top: -405px;
+}
+li {
+    float: left;
+    list-style-type: none;
+}
+ul {
+    position: fixed;
+    top: 0;
+    margin-top: 140px;
+    margin-left: 104px;
+}
+a {
+    display: block;
+    padding-right: 70px;
+    padding-left: 70px;
+    color:snow;
+    text-decoration: none;
 }
