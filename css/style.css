@@ -14,12 +14,16 @@ body {
     margin-right: auto;
 }
 h5 {
-    position:
+    font-family: avenir next, sans-serif;
+    color: snow;
+}
+h1 {
+    font-family: lobster, sans-serif;
+    font-size: 70px;
 }
 #logo {
     width: 160px;
     float: right;
-    width: 154px;
     margin-top: -120px;
 }
 .box {
@@ -40,15 +44,14 @@ h5 {
     border-width: thin;
     padding: 30px;
     position: relative;
-    left: 130px;
-    top: -405px;
+    top: -220px;
 }
 li {
     float: left;
     list-style-type: none;
 }
 ul {
-    position: fixed;
+    position: absolute;
     top: 0;
     margin-top: 140px;
     margin-left: 104px;
@@ -59,4 +62,5 @@ a {
     padding-left: 70px;
     color:snow;
     text-decoration: none;
+    font-family: avenir next, sans-serif;
 }
