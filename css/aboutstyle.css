@@ -13,30 +13,18 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-#logo {
-    width: 160px;
-    float: right;
-    margin-top: -170px
+blockquote {
+    font-family: avenir next, sans-serif;
+    font-size: 30px
 }
-.box {
-    width: 760px;
-    height: 372px;
-    border-color: snow;
-    border-style: solid;
-    border-width: thick;
-    margin: auto;
-    margin-top: 200px;
-    padding: 30px;
+h4 {
+    font-family: avenir next, sans-serif;
+    font-size: 36px;
+    color:#31478b
 }
-.box2 {
-    width: 760px;
-    height: 372px;
-    border-color: snow;
-    border-style: solid;
-    border-width: thin;
-    padding: 30px;
-    position: relative;
-    top: -170px;
+p {
+    font-family: avenir next, sans-serif;
+    font-size: 14px;
 }
 li {
     float: left;
@@ -52,7 +40,7 @@ a {
     display: block;
     padding-right: 70px;
     padding-left: 70px;
-    color:snow;
+    color:dimgrey;
     text-decoration: none;
     font-family: avenir next, sans-serif;
 }
