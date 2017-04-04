@@ -13,19 +13,24 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+#about {
+    position: absolute;
+}
 blockquote {
-    font-family: papyrus, sans-serif;
-    font-size: 30px
+    font-family: avenir next, sans-serif;
+    font-size: 30px;
+    position: relative;
 }
 h4 {
     font-family: avenir next, sans-serif;
     font-size: 36px;
-    color:#31478b
+    color:#31478b;
 }
 p {
     font-family: avenir next, sans-serif;
     font-size: 14px;
 }
+/*start of nav bar*/
 li {
     float: left;
     list-style-type: none;
@@ -44,3 +49,5 @@ a {
     text-decoration: none;
     font-family: avenir next, sans-serif;
 }
+/*end of nav bar*/
+

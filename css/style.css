@@ -14,22 +14,23 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-h5 {
+p {
     font-family: avenir next, sans-serif;
     color: snow;
+    font-size: 14px;
     position: relative;
-    left: 540px;
-    top: 100px;
+    left: 545px;
+    top: 135px;
 }
 #mg {
     position: relative;
     left: 250px;
-    top: 140px;
+    top: 165px;
 }
 #logo {
     width: 160px;
     float: right;
-    margin-top: -200px
+    margin-top: -185px
 }
 .box {
     width: 760px;
@@ -42,15 +43,15 @@ h5 {
     padding: 30px;
 }
 .box2 {
-    width: 760px;
-    height: 372px;
+    width: 763px;
+    height: 376px;
     border-color: snow;
     border-style: solid;
     border-width: thin;
     padding: 30px;
     position: relative;
-    top: -410px;
-    left: 98px;
+    top: -430px;
+    left: 78px;
     z-index: -1;
 }
 /*start of nav bar*/
