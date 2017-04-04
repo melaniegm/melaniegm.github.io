@@ -15,11 +15,18 @@ body {
 }
 #about {
     position: absolute;
+    left: 50px;
+    top: 250px;
 }
 blockquote {
     font-family: avenir next, sans-serif;
     font-size: 30px;
     position: relative;
+}
+.text {
+    position: absolute;
+    left: 450px;
+    top: 250px;
 }
 h4 {
     font-family: avenir next, sans-serif;
@@ -29,7 +36,8 @@ h4 {
 p {
     font-family: avenir next, sans-serif;
     font-size: 14px;
-}
+    width: 247px;
+} /*FIX THIS*/
 /*start of nav bar*/
 li {
     float: left;
