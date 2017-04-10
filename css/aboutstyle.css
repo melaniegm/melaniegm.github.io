@@ -19,13 +19,16 @@ body {
     top: 250px;
 }
 blockquote {
+    width: 300px;
     font-family: avenir next, sans-serif;
     font-size: 30px;
     position: relative;
+    bottom: 40px;
+    right: 30px;
 }
 .text {
     position: absolute;
-    left: 450px;
+    left: 480px;
     top: 250px;
 }
 h4 {
@@ -56,6 +59,31 @@ a {
     color:dimgrey;
     text-decoration: none;
     font-family: avenir next, sans-serif;
+
 }
 /*end of nav bar*/
+.box {
+    width: 300px;
+    height: 105px;
+    border-width: thick;
+    margin: auto;
+    margin-top: 200px;
+    padding: 30px;
+    position: absolute;
+    left: 60px;
+    top: 180px;
+}
+.box2 {
+    width: 304px;
+    height: 109px;
+    border-width: thin;
+    padding: 30px;
+    position: relative;
+    top: -208px;
+    right: 25px;
+    z-index: -1;
+}
+.box, .box2 {
+    border: slategrey solid;
 
+}
