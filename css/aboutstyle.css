@@ -65,7 +65,7 @@ a {
 .box {
     width: 300px;
     height: 105px;
-    border-width: thick;
+    border: slategrey solid thick;
     margin: auto;
     margin-top: 200px;
     padding: 30px;
@@ -76,14 +76,10 @@ a {
 .box2 {
     width: 304px;
     height: 109px;
-    border-width: thin;
+    border: slategrey solid thin;
     padding: 30px;
     position: relative;
     top: -208px;
     right: 25px;
     z-index: -1;
-}
-.box, .box2 {
-    border: slategrey solid;
-
 }
