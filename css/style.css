@@ -73,8 +73,18 @@ a {
     display: block;
     padding-right: 70px;
     padding-left: 70px;
-    color: snow;
+    color: white;
     text-decoration: none;
     font-family: avenir next, sans-serif;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+a:hover {
+    transition-property: color;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+    color:#d8d8d8;
+    text-shadow: 2px 2px 1px #a5a5a5;
 }
 /*end of nav bar*/
