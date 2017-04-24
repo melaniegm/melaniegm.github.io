@@ -1,13 +1,43 @@
+html {
+    background-color: aliceblue;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    margin: 0px;
+}
+#main_container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact {
+    position: absolute;
+    left: 50px;
+    top: 250px;
+}
 /*start of nav bar*/
 li {
     float: left;
     list-style-type: none;
 }
+.navlinks {
+    float: left;
+    margin-left: 50px;
+}
+nav {
+    height: 90px;
+    width: 910px;
+    position: absolute;
+    top: 120px;
+}
 ul {
     position: absolute;
     top: 0;
     margin-top: 140px;
-    margin-left: 85px;
+    margin-left: 285px;
 }
 a {
     display: block;
@@ -28,3 +58,36 @@ a:hover {
     text-shadow: 2px 2px 1px #a5a5a5;
 }
 /*end of nav bar*/
+/*start of contact form*/
+input[type=text], select, textarea {
+    background-color: #b8d7e4;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #97acc3;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+input[type=submit] {
+    background-color: #b8d7e4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #94d4df;
+}
+.container {
+    margin: auto;
+    padding: 20px;
+    width: 700px;
+    position:relative;
+    left: 120px;
+    top: 340px;
+}
+/*end of contact form*/

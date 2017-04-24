@@ -1,4 +1,18 @@
-/*start of nav bar*/
+html {
+    background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    margin: 0px;
+}
+#main_container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}/*start of nav bar*/
 li {
     float: left;
     list-style-type: none;
