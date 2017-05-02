@@ -23,6 +23,11 @@ body {
     max-width:3000px;
     height: 200px;
 }
+#logo {
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
 #about {
     position: absolute;
     left: 50px;

@@ -23,6 +23,11 @@ body {
     max-width:3000px;
     height: 200px;
 }
+#logo {
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
 #contact {
     position: absolute;
     left: 50px;
@@ -30,9 +35,8 @@ body {
 }
 #moi {
     position: relative;
-    left: 0px;
-    top: 250px;
-    transform: rotate(90deg);
+    left: 100px;
+    top: 180px;
     border: dimgrey 5px solid;
     opacity: 0.85;
 }
@@ -104,6 +108,6 @@ input[type=submit]:hover {
     width: 700px;
     position:relative;
     left: 90px;
-    top:-80px;
+    top:-205px;
 }
 /*end of contact form*/

@@ -23,6 +23,11 @@ body {
     max-width:3000px;
     height: 200px;
 }
+#logo {
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
 /*start of nav bar*/
 li {
     float: left;
@@ -80,6 +85,11 @@ p {
     top: 355px;
 }
 /*FIX POSITION OF IMAGES LATER OH GOD*/
+.works {
+    position: absolute;
+    left: 50px;
+    margin: auto;
+}
 .img, .img2, .img3 {
     width: 250px;
     background-color:darkgray;
