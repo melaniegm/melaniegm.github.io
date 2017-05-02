@@ -13,16 +13,28 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+#header {
+    background: url(../images/photo-landscape.jpg) no-repeat center center fixed;
+    background-color: orange;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width:3000px;
+    height: 200px;
+}
 #contact {
     position: absolute;
     left: 50px;
     top: 250px;
 }
-img {
-    position: ;
-    left: 50px;
-    top: 350px;
-    image-orientation: 90deg;
+#moi {
+    position: relative;
+    left: 0px;
+    top: 250px;
+    transform: rotate(90deg);
+    border: dimgrey 5px solid;
+    opacity: 0.85;
 }
 /*start of nav bar*/
 li {
@@ -91,7 +103,7 @@ input[type=submit]:hover {
     padding: 20px;
     width: 700px;
     position:relative;
-    left: 120px;
-    top: 340px;
+    left: 90px;
+    top:-80px;
 }
 /*end of contact form*/

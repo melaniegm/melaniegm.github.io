@@ -8,12 +8,15 @@
 </head>
 <body>
     <div id="port"><img src="images/portfolio.png" alt="aboutme" width="300"></div>
+    <!--header nav bar-->
+    <div id="header">
     <ul>
         <li><h3><a href="index.html" class="navlinks">home</a></h3></li>
         <li><h3><a href="about.html" class="navlinks">about</a></h3></li>
         <li><h3><a href="portfolio.html" class="navlinks">portfolio</a></h3></li>
         <li><h3><a href="contact.html" class="navlinks">contact</a></h3></li>
     </ul>
+    </div>
     <div class="box">
         <p><i>brief portfolio synopsis here</i>
         <br><b><i>visual</i></b>
@@ -26,22 +29,17 @@
     <div class="img2"></div>
     <div class="img3"></div>
     </div>
-    <!--a test,-->
-    <!-- Trigger the Modal -->
-<img id="myImg" src="images/We_All_Need_Trees.jpg" alt="sample portfolio image" width="250">
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- The Close Button -->
-  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
-</div>
+    <!--image popup-->
+    <img id="myImg" src="images/We_All_Need_Trees.jpg" alt="sample portfolio image" width="250">
+    <div id="myModal" class="modal">
+    <!-- The Close Button -->
+    <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+    <!--The Image-->
+    <img class="modal-content" id="img01">
+    <!--Image Text-->
+    <div id="caption"></div>
+    </div>
+    <!--JAVASCRIPT-->
     <script>// Get the modal
 var modal = document.getElementById('myModal');
 
@@ -63,6 +61,6 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 </script>
-
+    <!--END OF JAVASCRIPT-->
 </body>
 </html>

@@ -1,5 +1,5 @@
 html {
-    background-color:#eddcc9;
+    background-color:#fce8d9;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,6 +12,16 @@ body {
     width: 1024px;
     margin-left: auto;
     margin-right: auto;
+}
+#header {
+    background: url(../images/photo-landscape.jpg) no-repeat center center fixed;
+    background-color: orange;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width:3000px;
+    height: 200px;
 }
 #about {
     position: absolute;
