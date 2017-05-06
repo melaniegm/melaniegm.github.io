@@ -14,7 +14,18 @@
         <li><h3><a href="about.html" class="navlinks">about</a></h3></li>
         <li><h3><a href="portfolio.html" class="navlinks">portfolio</a></h3></li>
         <li><h3><a href="contact.html" class="navlinks">contact</a></h3></li>
+        <li><h3><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></h3></li>
         </ul>
+            /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+<script>function myFunction() {
+    var x = document.getElementById("nav");
+    if (x.className === "nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "nav";
+    }
+    }
+    </script>
     </nav>
     <div class="box">
     <div id="mg"><img src="images/name.png" alt="name" width="600px"></div>
