@@ -15,7 +15,6 @@ body {
 }
 #header {
     background: url(../images/photo-landscape.jpg) no-repeat center center fixed;
-    background-color: orange;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
