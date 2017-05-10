@@ -19,8 +19,12 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    max-width:3000px;
     height: 200px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 3;
 }
 #logo {
     position: relative;
@@ -88,6 +92,7 @@ p {
     position: absolute;
     left: 50px;
     margin: auto;
+    margin-top: 200px;
 }
 .img, .img2, .img3 {
     width: 250px;

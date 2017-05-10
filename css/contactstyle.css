@@ -19,8 +19,12 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    max-width:3000px;
     height: 200px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 3;
 }
 #logo {
     position: relative;
@@ -33,9 +37,9 @@ body {
     top: 250px;
 }
 #moi {
-    position: relative;
+    position: absolute;
     left: 100px;
-    top: 10px;
+    top: 370px;
     border: dimgrey 5px solid;
     opacity: 0.85;
 }
@@ -81,8 +85,8 @@ h4 {
     font-family: avenir next, sans-serif;
     font-size: 36px;
     color:#31478b;
-    position: relative;
-    top: 100px;
+    position: absolute;
+    top: 320px;
     left: 400px;
 }
 /*start of contact form*/
@@ -112,9 +116,9 @@ input[type=submit]:hover {
 .container {
     margin: auto;
     padding: 20px;
+    position: absolute;
     width: 700px;
-    position: relative;
-    top: -300px;
+    top: 420px;
     margin-left: 380px;
 }
 /*end of contact form*/

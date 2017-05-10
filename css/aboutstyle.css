@@ -13,25 +13,23 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-#navbar {
-    position: fixed;
-    top: 0;
-    margin-top: auto;
-}
 #header {
     background: url(../images/photo-landscape.jpg) no-repeat center center fixed;
-    background-color: orange;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    max-width:3000px;
     height: 200px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 3;
 }
 #logo {
-    position: relative;
+    position: absolute;
     top: 30px;
-    left: 60px;
+    left: 80px;
 }
 #about {
     position: absolute;
@@ -79,8 +77,6 @@ nav {
     top: 120px;
 }
 ul {
-    position: absolute;
-    top: 0;
     margin-top: 140px;
     margin-left: 285px;
 }
