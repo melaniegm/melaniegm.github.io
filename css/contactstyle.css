@@ -25,6 +25,7 @@ body {
     width: 100%;
     overflow: hidden;
     z-index: 3;
+    box-shadow: 0px 2px 10px 0px gray;
 }
 #logo {
     position: relative;
@@ -88,6 +89,8 @@ h4 {
     position: absolute;
     top: 320px;
     left: 400px;
+    width: auto;
+    overflow: hidden;
 }
 /*start of contact form*/
 input[type=text], select, textarea {
@@ -100,7 +103,7 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     margin-top: 1px;
     margin-bottom: 16px;
-    resize: vertical
+    resize: vertical;
 }
 input[type=submit] {
     background-color: #b8d7e4;
@@ -115,10 +118,9 @@ input[type=submit]:hover {
 }
 .container {
     margin: auto;
-    padding: 20px;
-    position: absolute;
-    width: 700px;
-    top: 420px;
     margin-left: 380px;
+    margin-right: 40px;
+    padding: 20px;
+    margin-top: 420px;
 }
 /*end of contact form*/
