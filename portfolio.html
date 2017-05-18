@@ -5,6 +5,7 @@
     <title>Melanie's Portfolio Website</title>
     <link rel="stylesheet" href="css/portfoliostyle.css" type="text/css">
     <!-- external css above !-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
     <div id="port"><img src="images/portfolio.png" alt="aboutme" width="300"></div>
@@ -22,40 +23,68 @@
         <p><i>brief portfolio synopsis here</i></p>
     </div>
     <div class="works">
-    <!--linked portfolio images here-->
-    <div class="img"></div>
-    <div class="img2"></div>
-    <div class="img3"></div>
     <!--image popup-->
-    <img id="myImg" src="images/We_All_Need_Trees.jpg" alt="sample portfolio image" width="250">
+    <img src="images/portfolio_images/We_All_Need_Trees.jpg" alt="sample portfolio image" width="250" class="image" id="0">
+    <img src="images/portfolio_images/TSADODGEFINAL.jpg" alt="sample portfolio image" width="250" class="image" id="1">
+    <img src="images/portfolio_images/bio_FINAL.jpg" alt="sample portfolio image" width="250" class="image" id="2">
+    <img src="images/portfolio_images/let_it_be.jpg" alt="sample portfolio image" width="250" class="image" id="3">
+    <img src="images/portfolio_images/POSTERREVISED2.jpg" alt="sample portfolio image" width="250" class="image" id="4">
+    <img src="images/portfolio_images/Cab_Course_Selection_Cover.jpg" alt="sample portfolio image" width="250" class="image" id="5">
+    <img src="images/portfolio_images/Magazine_Spread.jpg" alt="sample portfolio image" width="250" class="image" id="6">
+    <img src="images/portfolio_images/Canvas_sale.jpg" alt="sample portfolio image" width="250" class="image" id="7">
+
     <div id="myModal" class="modal">
     <!-- The Close Button -->
     <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
     <!--The Image-->
-    <img class="modal-content" id="img01">
+    <img class="modal-content" id="modalimage">
     <!--Image Text-->
     <div id="caption"></div>
     </div>
     <!--JAVASCRIPT-->
-    <script>// Get the modal
+   <script>
+// Get the modal
 var modal = document.getElementById('myModal');
+var images = ["We_All_Need_Trees.jpg", "TSADODGEFINAL.jpg", "bio_FINAL.jpg", "let_it_be.jpg", "POSTERREVISED2.jpg", "Cab_Course_Selection_Cover.jpg", "Magazine_Spread.jpg", "Canvas_sale.jpg"];
+var position = 0;
+var image = images[0];
+var viewport = document.getElementById('modalimage');
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
+
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
+// When the user clicks the button, open the modal
+/*img.onclick = function() {
+    modal.style.display = "block";
+}*/
+
+
+ $(document).ready(function() {
+        $('.image').click(function() {
+        	position = parseInt(this.id);
+        	image = images[position];
+        	viewport.src = "images/portfolio_images/" + image;
+            modal.style.display = "block";
+
+             ;
+
+        });
+    });
+
+
+
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-  modal.style.display = "none";
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 }
 </script>
     <!--END OF JAVASCRIPT-->

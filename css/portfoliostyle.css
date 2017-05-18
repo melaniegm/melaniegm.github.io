@@ -95,35 +95,16 @@ p {
     margin: auto;
     margin-top: 200px;
 }
-.img, .img2, .img3 {
-    width: 250px;
-    background-color:darkgray;
-    position: relative;
-}
-.img {
-    height: 315px;
-    top: 155px;
-    left: 300px;
-}
-.img2 {
-    height: 250px;
-    top: -160px;
-    left: 570px;
-}
-.img3 {
-    height: 350px;
-    top: -410px;
-    left: 840px;
-}
 /* Style the Image Used to Trigger the Modal */
-#myImg {
+.image {
     cursor: pointer;
     transition: 0.3s;
     left: 300px;
-    top: -425px;
+    top: 155px;
     position: relative;
+    margin: 10px;
 }
-#myImg:hover {opacity: 0.7;}
+.image:hover {opacity: 0.7;}
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
