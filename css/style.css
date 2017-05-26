@@ -29,13 +29,13 @@ p {
     color: snow;
     font-size: 14px;
     position: relative;
-    left: 545px;
-    top: 135px;
+    left: 600px;
+    top: 125px;
 }
 #mg {
     position: relative;
-    left: 230px;
-    top: 165px;
+    left: 200px;
+    top: 160px;
 }
 #logo {
     width: 160px;
@@ -49,6 +49,7 @@ p {
     margin: auto;
     margin-top: 200px;
     padding: 30px;
+    background: rgba(40, 50, 120, 0.3);
 }
 .box2 {
     width: 763px;

@@ -51,7 +51,7 @@ ul {
 }
 a.navlinks {
     display: block;
-    color: dimgrey;
+    color: #2d4475;
     padding-right: 70px;
     padding-left: 70px;
     text-decoration: none;
@@ -79,20 +79,31 @@ p {
     left: 50px;
     top: 250px;
 }
-.box {
-    width: 190px;
+p {
+    width: 200px;
     border: #727272 solid thick;
     margin: auto;
-    padding-left: 10px;
+    padding: 15px;
     position: absolute;
     left: 55px;
     top: 355px;
+    background: rgba(0, 50, 200, 0.2);
+}
+.box {
+    width: 175px;
+    height: 40px;
+    border: slategrey solid thin;
+    padding: 30px;
+    position: relative;
+    z-index: -1;
+    right: 285px;
+    top:125px;
 }
 /*FIX POSITION OF IMAGES LATER*/
 
 .works {
     margin-left: 350px;
-    margin-top: 335px;
+    margin-top: 240px;
     margin-right: 50px;
     justify-content: space-around;
 }
