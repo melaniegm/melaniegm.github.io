@@ -60,7 +60,7 @@ a.navlinks {
     transition-timing-function: ease-out;
 }
 a.navlinks:hover {
-    color: white;
+    color: darkgrey;
     background-image: url(../images/gasmen.melanie.resume001%20copy.jpg);
     background-position: 35px 3px;
     -webkit-background-clip: text;
