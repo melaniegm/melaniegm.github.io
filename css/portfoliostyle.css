@@ -51,7 +51,7 @@ ul {
 }
 a.navlinks {
     display: block;
-    color: #2d4475;
+    color: white;
     padding-right: 70px;
     padding-left: 70px;
     text-decoration: none;
@@ -61,7 +61,7 @@ a.navlinks {
     transition-timing-function: ease-out;
 }
 a.navlinks:hover {
-    color: white;
+    color: darkgrey;
     background-image: url(../images/gasmen.melanie.resume001%20copy.jpg);
     background-position: 35px 3px;
     -webkit-background-clip: text;
