@@ -85,8 +85,8 @@ p {
     margin: auto;
     padding: 15px;
     position: absolute;
-    left: 55px;
-    top: 355px;
+    right: 5px;
+    bottom: 4px;
     background: rgba(0, 50, 200, 0.2);
 }
 .box {
