@@ -100,9 +100,8 @@ blockquote {
     left: 480px;
     top: 240px;
 }
-h4 {
+h1 {
     font-family: avenir next, sans-serif;
-    font-size: 36px;
     color:#31478b;
 }
 p {
@@ -113,4 +112,14 @@ p {
     column-count: 2;
     margin: auto;
     margin-right: 67px;
+    padding-bottom: 30px;
+}
+h2 {
+    font-family: avenir next, sans-serif;
+    color:#31478b;
+
+}
+#resume {
+    border: slategrey solid 5px;
+    margin-bottom: 40px;
 }
